@@ -1,0 +1,53 @@
+* {
+    font-family: fantasy;
+}
+
+body {
+    background-image: url(https://cdn.pixabay.com/photo/2014/11/27/10/29/mountain-547363_1280.jpg);
+}
+
+.container {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    /* bring your own prefixes */
+    transform: translate(-50%, -50%);
+  }
+
+.centre {
+    text-align: center;
+    flex-direction: column;
+}
+
+.quote-box {
+    opacity: 0.7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 10px solid black;
+    height: 350px;
+    width: 600px;
+    margin-top: 3rem;
+    background-color: mintcream;
+}
+
+.random-generator {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    height: 30px;
+    width: 150px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+#myQuote {
+    font-weight: bolder;
+    color: black;
+    padding: 5px;
+}
+
+#quoteAuthor {
+    font-style: italic;
+    color: rgb(83, 83, 83);
+    padding: 5px;
+}
