@@ -4,6 +4,8 @@
 
 body {
     background-image: url(https://cdn.pixabay.com/photo/2014/11/27/10/29/mountain-547363_1280.jpg);
+    background-repeat: no-repeat;
+    background-size: auto;
 }
 
 .container {
